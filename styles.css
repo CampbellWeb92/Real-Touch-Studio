@@ -138,7 +138,9 @@ h3 {
 
 .brand span {
   color: var(--pink);
+   
 }
+
 
 .brand-logo {
   display: inline-flex;
@@ -158,6 +160,32 @@ h3 {
   height: auto;
   max-height: 92px;
   object-position: left center;
+}
+
+/* ===== FOOTER BRAND COLOURS ===== */
+
+.site-footer .brand-name {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.18em;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.site-footer .brand-real {
+  color: #e84a8a !important;
+  -webkit-text-fill-color: #e84a8a !important;
+}
+
+.site-footer .brand-touch {
+  color: #f5c542 !important;
+  -webkit-text-fill-color: #f5c542 !important;
+}
+
+.site-footer .brand-studio {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
 }
 
 .nav-links {
@@ -703,6 +731,14 @@ textarea {
   padding: 58px 0 22px;
 }
 
+@media (max-width: 620px) {
+  .site-footer .brand-name {
+    font-size: 1.25rem;
+    gap: 0.12em;
+    flex-wrap: wrap;
+  }
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 1.4fr .8fr .8fr;
@@ -1190,7 +1226,7 @@ main > .section:not(.section-soft) {
 
 .site-header .brand-name {
   color: #151515 !important;
-  -webkit-text-fill-color: #151515 !important;
+  -webkit-text-fill-color: #b92d68 !important;
 }
 
 /* Reliable responsive Google Maps panel with a visible fallback link. */
@@ -2004,5 +2040,69 @@ textarea::placeholder {
   .eyebrow {
     font-size: .77rem;
     letter-spacing: .08em;
+  }
+}
+
+/* =========================================================
+   FINAL LOGO + BRAND TEXT FIX
+   Removes the white logo container and colours the name:
+   Real Touch = pink, Studio = black
+   ========================================================= */
+
+.site-header .brand-lockup img {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* ===== FINAL BRAND COLOURS ===== */
+
+.site-header .brand-name{
+    display:flex;
+    align-items:center;
+    gap:0.18em;
+    font-family:"Playfair Display", serif;
+    font-weight:700;
+    font-size:clamp(1.4rem,2vw,2rem);
+}
+
+/* Real */
+.site-header .brand-real{
+    color:#E84A8A !important;
+    -webkit-text-fill-color:#E84A8A !important;
+}
+
+/* Touch */
+.site-header .brand-touch{
+    color:#F5C542 !important;
+    -webkit-text-fill-color:#F5C542 !important;
+}
+
+/* Studio */
+.site-header .brand-studio{
+    color:#151515 !important;
+    -webkit-text-fill-color:#151515 !important;
+}
+
+.site-footer .brand-name {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.28em;
+}
+
+.site-footer .brand-real-touch {
+  color: #e84a8a !important;
+}
+
+.site-footer .brand-studio {
+  color: #ffffff !important;
+}
+
+@media (max-width: 620px) {
+  .site-header .brand-name {
+    gap: 0.18em;
+    flex-wrap: wrap;
   }
 }

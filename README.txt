@@ -53,3 +53,11 @@ FINAL FIXES
 - The navbar logo is displayed on a white rounded panel so the full transparent logo remains visible.
 - The Contact page uses a Google Maps embed for 42 Twickenham Avenue, Auckland Park, Johannesburg, Gauteng, 2092.
 - A visible Open in Google Maps button is included beneath the map as a fallback.
+
+
+LATEST LOGO AND HEADER UPDATE
+- Removed the white container, border and shadow behind the navbar logo.
+- The logo now sits directly on the pink navbar with a transparent background.
+- “Real Touch” is pink.
+- “Studio” is black.
+- The same brand structure is used consistently across all pages.
