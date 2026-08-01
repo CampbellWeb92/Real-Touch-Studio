@@ -1,85 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-ZA">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore nails, lashes, massage, hair, waxing and facial services at Real Touch Studio.">
-  <title>Services | Real Touch Studio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore professional nails, lashes, massage, hair, waxing and facial treatments at Real Touch Studio.">
+  <meta name="theme-color" content="#f7cadb">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Real Touch Studio">
+  <meta property="og:title" content="Beauty & Wellness Services | Real Touch Studio">
+  <meta property="og:description" content="Explore professional nails, lashes, massage, hair, waxing and facial treatments at Real Touch Studio.">
+  <meta name="twitter:card" content="summary">
+  <title>Beauty & Wellness Services | Real Touch Studio</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&amp;display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="services">
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a href="tel:+27688733966" aria-label="Call Real Touch Studio">☎ 068 873 3966</a>
+    <a class="topbar-location" href="https://www.google.com/maps/search/?api=1&amp;query=42%20Twickenham%20Avenue%2C%20Auckland%20Park%2C%20Johannesburg%2C%20Gauteng%2C%202092" target="_blank" rel="noopener">Auckland Park, Johannesburg</a>
+    <a href="https://wa.me/27688733966" target="_blank" rel="noopener">Book on WhatsApp</a>
+  </div>
+</div>
 <header class="site-header">
   <div class="container navbar">
-    <a class="brand brand-lockup" href="index.html" aria-label="Real Touch Studio home"><img src="logo.png" alt="Real Touch Studio logo"><span class="brand-name"><span class="brand-real-touch">Real Touch</span> <span class="brand-studio">Studio</span></span></a>
-    <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+    <a class="brand-lockup" href="index.html" aria-label="Real Touch Studio home">
+      <img src="logo.webp" alt="Real Touch Studio" width="320" height="184">
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
-    <ul class="nav-links">
-      <li><a href="index.html" data-page="home">Home</a></li>
-      <li><a href="services.html" data-page="services">Services</a></li>
-      <li><a href="pricelist.html" data-page="pricelist">Price List</a></li>
-      <li><a href="about.html" data-page="about">About</a></li>
-      <li><a class="nav-cta" href="contact.html" data-page="contact">Book Now</a></li>
-    </ul>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="index.html" data-page="home">Home</a></li><li><a href="services.html" data-page="services" class="active" aria-current="page">Services</a></li><li><a href="pricelist.html" data-page="pricelist">Price List</a></li><li><a href="about.html" data-page="about">About</a></li>
+        <li><a class="nav-cta" href="contact.html" data-page="contact">Book Now</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-
-<main>
+<main id="main-content">
   <section class="page-hero">
-    <div class="container">
-      <div class="eyebrow">Our treatments</div>
-      <h1>Services</h1>
-      <p class="lead">A complete selection of beauty and wellness services in one elegant studio.</p>
-      <p class="breadcrumb"><a href="index.html">Home</a> / Services</p>
-    </div>
-  </section>
-
+  <div class="container page-hero-content reveal">
+    <div class="eyebrow">Our treatments</div>
+    <h1>Services</h1>
+    <p class="lead">A complete selection of beauty and wellness services in one elegant studio.</p>
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Services</span></nav>
+  </div>
+</section>
   <section class="section">
     <div class="container">
-      <div class="card-grid">
-        <article class="service-card reveal" id="nails"><div class="icon-circle">✦</div><h3>Nails</h3><p>Choose from classic manicures, gel overlays, acrylic extensions, pedicures and creative nail art. Every treatment is finished with detailed shaping and neat cuticle care.</p><a class="link-arrow" href="pricelist.html#nails">See nail prices →</a></article>
-        <article class="service-card reveal" id="lashes"><div class="icon-circle">◡</div><h3>Lashes</h3><p>Enhance your natural beauty with classic, hybrid or volume lash extensions. Lash fills and safe removals are also available to keep your set looking fresh.</p><a class="link-arrow" href="pricelist.html#lashes">See lash prices →</a></article>
-        <article class="service-card reveal" id="massage"><div class="icon-circle">✧</div><h3>Massage</h3><p>Unwind with a back, neck and shoulder massage or enjoy a longer full-body treatment. Pressure can be adjusted to suit your comfort and relaxation needs.</p><a class="link-arrow" href="pricelist.html#massage">See massage prices →</a></article>
-        <article class="service-card reveal" id="hair"><div class="icon-circle">≈</div><h3>Hair</h3><p>From wash-and-blow services to styling, cuts, colour and restorative treatments, every appointment is tailored to your hair type and desired finish.</p><a class="link-arrow" href="pricelist.html#hair">See hair prices →</a></article>
-        <article class="service-card reveal" id="waxing"><div class="icon-circle">◇</div><h3>Waxing</h3><p>Professional waxing removes unwanted hair efficiently and leaves skin feeling smooth. Facial and body waxing options are available.</p><a class="link-arrow" href="pricelist.html#waxing">See waxing prices →</a></article>
-        <article class="service-card reveal" id="facials"><div class="icon-circle">☼</div><h3>Facial Treatments</h3><p>Refresh your complexion with cleansing, exfoliation, masks and moisturising treatments selected according to your skin's needs.</p><a class="link-arrow" href="pricelist.html#facials">See facial prices →</a></article>
+      <div class="service-intro reveal"><div><div class="eyebrow">Made for your routine</div><h2>Choose the care that suits you</h2></div><p class="lead">Each treatment is tailored to your desired result, comfort and personal style. Select a category to see details and pricing.</p></div>
+      <div class="card-grid service-grid">
+        <article class="service-card service-card-large reveal" id="nails"><div class="icon-circle">✦</div><div class="service-number">01</div><h3>Nails</h3><p>Choose from classic manicures, gel overlays, acrylic extensions, pedicures and creative nail art. Every treatment is finished with detailed shaping and neat cuticle care.</p><a class="link-arrow" href="pricelist.html#nails">See nail prices →</a></article>
+        <article class="service-card service-card-large reveal" id="lashes"><div class="icon-circle">◡</div><div class="service-number">02</div><h3>Lashes</h3><p>Enhance your natural beauty with classic, hybrid or volume lash extensions. Lash fills and safe removals are also available to keep your set looking fresh.</p><a class="link-arrow" href="pricelist.html#lashes">See lash prices →</a></article>
+        <article class="service-card service-card-large reveal" id="massage"><div class="icon-circle">✧</div><div class="service-number">03</div><h3>Massage</h3><p>Unwind with a back, neck and shoulder massage or enjoy a longer full-body treatment. Pressure can be adjusted to suit your comfort and relaxation needs.</p><a class="link-arrow" href="pricelist.html#massage">See massage prices →</a></article>
+        <article class="service-card service-card-large reveal" id="hair"><div class="icon-circle">≈</div><div class="service-number">04</div><h3>Hair</h3><p>From wash-and-blow services to styling, cuts, colour and restorative treatments, every appointment is tailored to your hair type and desired finish.</p><a class="link-arrow" href="pricelist.html#hair">See hair prices →</a></article>
+        <article class="service-card service-card-large reveal" id="waxing"><div class="icon-circle">◇</div><div class="service-number">05</div><h3>Waxing</h3><p>Professional waxing removes unwanted hair efficiently and leaves skin feeling smooth. Facial and body waxing options are available.</p><a class="link-arrow" href="pricelist.html#waxing">See waxing prices →</a></article>
+        <article class="service-card service-card-large reveal" id="facials"><div class="icon-circle">☼</div><div class="service-number">06</div><h3>Facial Treatments</h3><p>Refresh your complexion with cleansing, exfoliation, masks and moisturising treatments selected according to your skin's needs.</p><a class="link-arrow" href="pricelist.html#facials">See facial prices →</a></article>
       </div>
     </div>
   </section>
-
-  <section class="section section-soft">
-    <div class="container two-col">
-      <div class="reveal">
-        <div class="eyebrow">Personalised care</div>
-        <h2>Not sure which treatment to choose?</h2>
-        <p class="lead">Tell us what result you would like, and we will help you select the most suitable service or combination of treatments.</p>
-        <a class="btn btn-primary" style="margin-top:26px" href="contact.html">Ask Real Touch Studio</a>
-      </div>
-      <div class="image-frame reveal" style="background-image:url('https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=85')"></div>
-    </div>
-  </section>
+  <section class="section section-soft"><div class="container two-col reverse-mobile"><div class="reveal"><div class="eyebrow">Personalised care</div><h2>Not sure which treatment to choose?</h2><p class="lead">Tell us what result you would like, and we will help you select the most suitable service or combination of treatments.</p><div class="button-row"><a class="btn btn-primary" href="contact.html">Ask Real Touch Studio</a><a class="btn btn-light" href="pricelist.html">Compare Prices</a></div></div><figure class="image-frame reveal"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Professional hair treatment at a beauty salon" width="1200" height="900" loading="lazy"></figure></div></section>
+  <section class="section section-compact"><div class="container"><div class="cta reveal"><div><span class="cta-kicker">Ready when you are</span><h2>Choose a treatment and request your appointment.</h2><p>Send the service name and your preferred date. The studio will confirm availability.</p></div><a class="btn btn-dark" href="contact.html">Request a Booking</a></div></div></section>
 </main>
-
 
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div>
-<a class="brand brand-lockup" href="index.html" aria-label="Real Touch Studio home">
-  <img src="logo.png" alt="Real Touch Studio logo">
-
-  <span class="brand-name">
-    <span class="brand-real">Real</span>
-    <span class="brand-touch">Touch</span>
-    <span class="brand-studio">Studio</span>
-  </span>
-</a>
+        <a class="footer-brand" href="index.html" aria-label="Real Touch Studio home"><img src="logo.webp" alt="Real Touch Studio" width="320" height="184" loading="lazy"></a>
         <p class="footer-copy">Elegant beauty and wellness treatments created to help you feel confident, refreshed and beautifully cared for.</p>
       </div>
       <div>
-        <h3 class="footer-title">Explore</h3>
+        <h2 class="footer-title">Explore</h2>
         <ul class="footer-links">
           <li><a href="services.html">Our Services</a></li>
           <li><a href="pricelist.html">Price List</a></li>
@@ -88,28 +91,25 @@
         </ul>
       </div>
       <div>
-        <h3 class="footer-title">Connect</h3>
+        <h2 class="footer-title">Connect</h2>
         <ul class="footer-links">
           <li><a href="tel:+27688733966">068 873 3966</a></li>
           <li><a href="https://wa.me/27688733966" target="_blank" rel="noopener">WhatsApp</a></li>
-          <li><a href="https://instagram.com/realtouchstudio1" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="https://tiktok.com/realtouchstudio" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="https://instagram.com/realtouchstudio01" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://tiktok.com/@realtouchstudio" target="_blank" rel="noopener">TikTok</a></li>
         </ul>
       </div>
+      <div>
+        <h2 class="footer-title">Visit</h2>
+        <address class="footer-address">
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=42%20Twickenham%20Avenue%2C%20Auckland%20Park%2C%20Johannesburg%2C%20Gauteng%2C%202092" target="_blank" rel="noopener">42 Twickenham Avenue, Auckland Park, Johannesburg, Gauteng, 2092</a>
+        </address>
+      </div>
     </div>
-    <div class="footer-bottom">© <span id="year"></span> Real Touch Studio. All rights reserved.</div>
+    <div class="footer-bottom"><span>© <span class="current-year"></span> Real Touch Studio.</span><span>Beauty · Wellness · Confidence</span></div>
   </div>
 </footer>
-<script src="script.js"></script>
-
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('[data-page]').forEach(link => {
-    if (link.dataset.page === 'services') link.classList.add('active');
-  });
-});
-</script>
-
+<a class="floating-whatsapp" href="https://wa.me/27688733966" target="_blank" rel="noopener" aria-label="Book with Real Touch Studio on WhatsApp"><span aria-hidden="true">◉</span><span>WhatsApp</span></a>
+<script src="script.js" defer></script>
 </body>
 </html>

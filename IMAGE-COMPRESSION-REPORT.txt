@@ -1,0 +1,19 @@
+REAL TOUCH STUDIO IMAGE COMPRESSION REPORT
+
+Original local images: 4.21 MB
+Optimized local images: 0.26 MB
+Reduction: 93.7%
+
+Original files:
+- logo.png: 214.6 KB
+- logo2.png: 397.2 KB
+- bg.png: 1924.0 KB
+- background.png: 1774.0 KB
+
+Optimized files:
+- logo.webp: 124.3 KB
+- bg.webp: 63.9 KB
+- background.webp: 65.4 KB
+- favicon.png: 16.0 KB
+
+The unused logo2.png and hidden .git folder were excluded from the final website.

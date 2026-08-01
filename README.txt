@@ -1,63 +1,36 @@
-REAL TOUCH STUDIO WEBSITE
+REAL TOUCH STUDIO — IMPROVED WEBSITE
+
+OPEN THE WEBSITE
+- Open index.html in a web browser.
+- Upload all files in this folder together when publishing.
 
 PAGES
-1. index.html       - Home page
-2. services.html    - Full service descriptions
-3. pricelist.html   - Price list
-4. about.html       - About and team
-5. contact.html     - Contact information and WhatsApp booking form
+- index.html: Home
+- services.html: Full service descriptions
+- pricelist.html: Service prices
+- about.html: Studio information and team roles
+- contact.html: Contact details, map and WhatsApp booking form
 
-HOW TO EDIT
-- Open any file in a text editor such as Visual Studio Code.
-- Replace 072 000 0000 and 27720000000 with the salon's real number.
-- WhatsApp numbers must include the country code and exclude spaces and the + sign.
-- Replace Instagram and Facebook links in the footer and contact page.
-- Replace the sample address, hours, prices, team details and images.
-- The WhatsApp booking form number is also inside script.js.
-- Upload all files together into the same website folder.
+CONTACT DETAILS CURRENTLY USED
+- Cellphone / WhatsApp: 068 873 3966
+- WhatsApp link number: 27688733966
+- Address: 42 Twickenham Avenue, Auckland Park, Johannesburg, Gauteng, 2092
+- Instagram: @realtouchstudio01
+- TikTok: @realtouchstudio
 
-IMPORTANT
-This site uses Google Fonts and image links from Unsplash, so internet access is needed for those assets to display.
+IMPROVEMENTS INCLUDED
+- Rebuilt the header and mobile navigation consistently on all pages.
+- Mobile menu closes after selection, outside click, Escape or screen resize.
+- Fixed malformed About and Contact page navigation markup.
+- Fixed duplicate Price List containers and duplicate section IDs.
+- Added a cleaner responsive layout, stronger calls to action and a floating WhatsApp button.
+- Added form validation, a required cellphone field and a minimum booking date of today.
+- Added active-page navigation, accessible focus states, skip link and reduced-motion support.
+- Added SEO descriptions, social sharing metadata, favicon and BeautySalon structured data.
+- Converted local website artwork to compressed WebP and removed unused Git history and logo artwork.
+- Changed decorative content images to semantic images with alt text and lazy loading where appropriate.
 
-
-UPDATED:
-- Logo added to navbar and footer.
-- Floral background applied to every page.
-- Mobile sizing and navigation improved.
-
-
-LATEST UPDATES
-- Cellphone and WhatsApp number changed to 068 873 3966 everywhere.
-- WhatsApp links use 27688733966.
-- Logo enlarged and placed on the left.
-- Real Touch Studio appears next to the logo.
-
-LATEST DESIGN UPDATE
-- The floral background is now more visible across all pages.
-- The desktop and mobile navigation bar is now pink.
-
-LATEST LOCATION UPDATE
-- The navigation bar has been changed to a softer pastel pink.
-- Google Maps is embedded on the Contact page for:
-  42 Twickenham Avenue, Auckland Park, Johannesburg, Gauteng, 2092.
-- The displayed address opens Google Maps in a new tab when selected.
-
-
-LATEST NAVBAR FIX
-- The Book Now button text is now forced to white for clear contrast.
-- The logo image was tightly cropped and placed on a subtle white panel so it remains visible on the soft pink navbar.
-
-FINAL FIXES
-- The navbar remains soft pink.
-- The Book Now button now has forced white text in normal, hover, focus, visited and active states.
-- The navbar logo is displayed on a white rounded panel so the full transparent logo remains visible.
-- The Contact page uses a Google Maps embed for 42 Twickenham Avenue, Auckland Park, Johannesburg, Gauteng, 2092.
-- A visible Open in Google Maps button is included beneath the map as a fallback.
-
-
-LATEST LOGO AND HEADER UPDATE
-- Removed the white container, border and shadow behind the navbar logo.
-- The logo now sits directly on the pink navbar with a transparent background.
-- “Real Touch” is pink.
-- “Studio” is black.
-- The same brand structure is used consistently across all pages.
+NOTES
+- Google Fonts, Unsplash photographs and Google Maps require an internet connection.
+- The booking form opens WhatsApp; it does not store submissions in a database.
+- Prices and sample team roles can be edited directly in the relevant HTML files.
