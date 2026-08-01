@@ -1,19 +1,23 @@
 REAL TOUCH STUDIO IMAGE COMPRESSION REPORT
 
-Original local images: 4.21 MB
-Optimized local images: 0.26 MB
-Reduction: 93.7%
+Original supplied local artwork: 4.21 MB
+Final local image library: 0.74 MB
 
-Original files:
-- logo.png: 214.6 KB
-- logo2.png: 397.2 KB
-- bg.png: 1924.0 KB
-- background.png: 1774.0 KB
+All photographs are now included inside the website ZIP.
+No page depends on an external image host.
 
 Optimized files:
-- logo.webp: 124.3 KB
-- bg.webp: 63.9 KB
-- background.webp: 65.4 KB
-- favicon.png: 16.0 KB
+- background.webp: 941 x 1672, 65.4 KB
+- bg.webp: 1536 x 1024, 63.9 KB
+- favicon.png: 192 x 192, 16.0 KB
+- images/beauty-model.webp: 1400 x 933, 127.8 KB
+- images/beauty-portrait.webp: 933 x 1400, 28.0 KB
+- images/facial-treatment.webp: 1200 x 800, 39.0 KB
+- images/hair-styling.webp: 1400 x 935, 67.9 KB
+- images/makeup-treatment.webp: 1400 x 933, 59.1 KB
+- images/salon-interior.webp: 800 x 600, 47.1 KB
+- images/studio-team.webp: 1200 x 801, 123.1 KB
+- logo.webp: 640 x 368, 124.3 KB
 
-The unused logo2.png and hidden .git folder were excluded from the final website.
+The unused logo2.png and hidden .git folder remain excluded from the website.
+Responsive aspect ratios and object positioning are used to prevent mobile stretching and awkward cropping.

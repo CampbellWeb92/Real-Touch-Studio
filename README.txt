@@ -31,6 +31,15 @@ IMPROVEMENTS INCLUDED
 - Changed decorative content images to semantic images with alt text and lazy loading where appropriate.
 
 NOTES
-- Google Fonts, Unsplash photographs and Google Maps require an internet connection.
+- Google Fonts and Google Maps require an internet connection. All website photographs are included locally.
 - The booking form opens WhatsApp; it does not store submissions in a database.
 - Prices and sample team roles can be edited directly in the relevant HTML files.
+MOBILE AND IMAGE FIXES
+----------------------
+- All page photographs are now stored locally in the images folder.
+- No page depends on Unsplash or another external image host.
+- Hero, content and team images use responsive aspect ratios.
+- Images no longer stretch when the screen narrows.
+- Important parts of portraits and service photographs remain centred.
+- Extra-small screens receive smaller headings, cards and price rows.
+
